@@ -5,10 +5,10 @@
         <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
     </a>
     <a href="https://reactjs.org">
-        <img src="https://img.shields.io/badge/NextJs-000000?style=for-the-badge&logo=Next.js&logoColor=white" alt="Next.js"/>
+        <img src="https://img.shields.io/badge/NextJs-000000?style=for-the-badge&logo=Next.js" alt="Next.js"/>
     </a>
     <a href="https://reactjs.org">
-        <img src="https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=white" alt="React"/>
+        <img src="https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react" alt="React"/>
     </a>
 </div>
 
