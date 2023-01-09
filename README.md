@@ -1,5 +1,17 @@
 # Практика 09.01.2023 - 11.02.2023
 
+<div id="badges" align="left">
+    <a href="https://www.typescriptlang.org">
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+    </a>
+    <a href="https://reactjs.org">
+        <img src="https://img.shields.io/badge/NextJs-000000?style=for-the-badge&logo=Next.js&logoColor=white" alt="Next.js"/>
+    </a>
+    <a href="https://reactjs.org">
+        <img src="https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=white" alt="React"/>
+    </a>
+</div>
+
 ## Т.З
 
 ````
@@ -25,6 +37,7 @@
 4. структурирование проекта...
 5. CamelCase
 ````
+
 ## Установка
 
 Не забудьте установить пакеты
@@ -37,3 +50,8 @@ npm i
 
 ````
 npm run dev
+````
+
+<div align="right">
+  Долгопольский Денис ИП 19-7К
+</div>
