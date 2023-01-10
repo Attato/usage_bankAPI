@@ -82,7 +82,7 @@ const Home: NextPage = () => {
 
 				<div className={styles.grid}>
 					<Link
-						href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+						href="https://github.com/Attato/usage_bankAPI"
 						className={styles.card}
 						target="_blank"
 						rel="noopener noreferrer"
