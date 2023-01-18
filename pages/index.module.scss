@@ -61,7 +61,7 @@
 		border: 1px solid rgba(var(--card-border-rgb), 0);
 		transition: all 0.2s;
 
-		span {
+		img {
 			display: inline-block;
 			transition: transform 200ms;
 		}
@@ -182,7 +182,7 @@
 @media (hover: hover) and (pointer: fine) {
 	.card {
 		&:hover {
-			span {
+			img {
 				transform: translateX(4px);
 			}
 		}
@@ -194,7 +194,7 @@
 		animation: none;
 	}
 
-	.card:hover span {
+	.card:hover img {
 		transform: none;
 	}
 }
