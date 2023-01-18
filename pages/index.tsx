@@ -12,7 +12,7 @@ import styles from './index.module.scss';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const Home: NextPage = () => {
+const HomePage: NextPage = () => {
 	return (
 		<>
 			<Head>
@@ -91,7 +91,13 @@ const Home: NextPage = () => {
 						rel="noopener noreferrer"
 					>
 						<h2 className={inter.className}>
-							Open Source <span>-&gt;</span>
+							Open Source{' '}
+							<Image
+								src="/svg/arrow_right.svg"
+								width={16}
+								height={16}
+								alt="arrow_right"
+							></Image>
 						</h2>
 						<p className={styles.className}>
 							Открытый исходный код данного проекта.
@@ -103,4 +109,4 @@ const Home: NextPage = () => {
 	);
 };
 
-export default Home;
+export default HomePage;
