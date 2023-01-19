@@ -23,9 +23,9 @@ const SignInPage: NextPage = () => {
 			<div className={styles.main}>
 				<div className={styles.sign_up}>
 					<h1>Sign up</h1>
-					<span>Псевдоним</span>
-					<input type="text" placeholder="John Doe" />
 					<span>Логин</span>
+					<input type="text" placeholder="John Doe" />
+					<span>Почта</span>
 					<input type="text" placeholder="example@mail.ru" />
 					<span>Пароль</span>
 					<input type="password" placeholder="******" />
@@ -36,7 +36,7 @@ const SignInPage: NextPage = () => {
 					</Link>
 					<p>
 						* Нажимая продолжить, вы соглашаетесь с нашими Условиями
-						предоставления услуг и Политикой конфиденциальности .
+						предоставления услуг и Политикой конфиденциальности.
 					</p>
 				</div>
 			</div>
