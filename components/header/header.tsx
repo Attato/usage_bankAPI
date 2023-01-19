@@ -7,7 +7,11 @@ import styles from './header.module.scss';
 const Header: FC = () => {
 	return (
 		<header className={styles.header}>
-			<Link href="/">Регистрация</Link>
+			<Link href="/">Home</Link>
+			<div className={styles.right_side}>
+				<Link href="/auth/signin">Sign in</Link>
+				<Link href="/auth/signup">Sign up</Link>
+			</div>
 		</header>
 	);
 };
