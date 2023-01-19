@@ -40,5 +40,11 @@
 		background-color: rgba(var(--callout-rgb), 0.5);
 		border: 1px solid rgba(var(--callout-border-rgb), 0.3);
 		border-radius: var(--border-radius);
+		transition: all 0.1s ease-in-out;
+
+		&:hover {
+			background-color: rgba(var(--callout-rgb), 0.65);
+			border: 1px solid rgba(var(--callout-border-rgb), 0.45);
+		}
 	}
 }
