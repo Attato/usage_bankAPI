@@ -5,9 +5,9 @@
 	gap: 60px;
 	align-items: center;
 	padding: 0 16px;
-	min-height: 100vh;
+	min-height: calc(100vh - 72px);
 
-	.currenciess__table {
+	.currenciess_table {
 		display: flex;
 		flex-direction: column;
 		margin: 0;
@@ -16,7 +16,7 @@
 		border: 1px solid rgba(var(--callout-border-rgb), 0.3);
 		border-radius: var(--border-radius);
 
-		.currenciess__title {
+		.currenciess_title {
 			display: flex;
 			justify-content: space-between;
 			opacity: 0.6;
@@ -28,7 +28,7 @@
 			}
 		}
 
-		.currenciess__row {
+		.currenciess_row {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
@@ -228,14 +228,11 @@
 			padding: 1rem;
 		}
 
-		.currenciess__table {
+		.currenciess_table {
 			display: flex;
 			justify-content: center;
 			position: fixed;
 			width: 100%;
-		}
-
-		.currenciess__table {
 			align-items: center;
 			inset: 0 0 auto;
 			padding: 2rem 1rem 1.4rem;
