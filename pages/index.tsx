@@ -33,13 +33,13 @@ const HomePage: NextPage = () => {
 					</div>
 				</div>
 
-				<div className={styles.currenciess__table}>
-					<div className={styles.currenciess__title}>
+				<div className={styles.currenciess_table}>
+					<div className={styles.currenciess_title}>
 						<span>Курсы валют</span>
 						<span>31.12.2022</span>
 						<span>10.01.2023</span>
 					</div>
-					<div className={styles.currenciess__row}>
+					<div className={styles.currenciess_row}>
 						<div className={styles.currenciess}>
 							<Image
 								src="/currencies/usd.svg"
@@ -53,7 +53,7 @@ const HomePage: NextPage = () => {
 						<p className={styles.num}>70,3375 ₽</p>
 						<p className={styles.num}>70,3002 ₽</p>
 					</div>
-					<div className={styles.currenciess__row}>
+					<div className={styles.currenciess_row}>
 						<div className={styles.currenciess}>
 							<Image
 								src="/currencies/eur.svg"
@@ -67,7 +67,7 @@ const HomePage: NextPage = () => {
 						<p className={styles.num}>75,6553 ₽</p>
 						<p className={styles.num}>75,0785 ₽</p>
 					</div>
-					<div className={styles.currenciess__row}>
+					<div className={styles.currenciess_row}>
 						<div className={styles.currenciess}>
 							<Image
 								src="/currencies/cny.svg"
