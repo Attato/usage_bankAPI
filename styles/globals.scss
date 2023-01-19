@@ -101,6 +101,15 @@ a {
 	text-decoration: none;
 }
 
+input {
+	font-family: var(--font-mono);
+}
+
+input[type='checkbox'] {
+	margin: 0 !important;
+	cursor: pointer;
+}
+
 @media (prefers-color-scheme: dark) {
 	html {
 		color-scheme: dark;
