@@ -23,7 +23,7 @@ const SignInPage: NextPage = () => {
 			<div className={styles.main}>
 				<div className={styles.sign_in}>
 					<h1>Sign in</h1>
-					<span>Логин</span>
+					<span>Имя пользователя</span>
 					<input type="text" placeholder="John Doe" />
 					<span>Пароль</span>
 					<input type="password" placeholder="******" />
